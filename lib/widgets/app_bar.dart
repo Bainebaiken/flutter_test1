@@ -34,7 +34,16 @@ AppBar buildAppBar() {
     backgroundColor: Colors.black,
     title: Row(
       children: [
-        Image.asset('\assets\youtube_logo.jpeg', width: 100), // Add a YouTube logo image in your assets folder
+        Image.asset('assets/youtube_logo.png', width: 100), // YouTube logo
+        const SizedBox(width: 8), // Add some spacing between the logo and the text
+        const Text(
+          'YouTube',
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
         const Spacer(),
         const Icon(Icons.search, size: 28),
         const SizedBox(width: 20),
@@ -45,4 +54,3 @@ AppBar buildAppBar() {
     ),
   );
 }
-
