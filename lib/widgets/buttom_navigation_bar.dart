@@ -45,7 +45,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
       items: const [
         BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
         BottomNavigationBarItem(icon: Icon(Icons.short_text), label: 'Shorts'),
-        BottomNavigationBarItem(icon: Icon(Icons.upload_file), label: 'Upload'),
+        BottomNavigationBarItem(icon: Icon(Icons.upload_file), label: ''),
         BottomNavigationBarItem(icon: Icon(Icons.subscriptions), label: 'Subscriptions'),
         BottomNavigationBarItem(icon: Icon(Icons.account_circle), label: 'Account'),
       ],
